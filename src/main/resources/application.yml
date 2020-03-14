@@ -1,0 +1,11 @@
+spring:
+  security:
+    oauth2:
+      client:
+        provider:
+          oidc:
+            issuer-uri: http://localhost:8080/auth/realms/Test
+        registration:
+          oidc:
+            client-id: spring-boot-server
+            client-secret: 8602455c-65db-4fe8-9614-b1c616902d35
